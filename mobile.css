@@ -1,0 +1,32 @@
+@media (max-width:500px){
+
+     .video-section{
+          max-width: 1440px;
+          margin: 0 auto;
+          padding: 50px 10px;
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          gap: 0.8rem;
+          
+          .video{
+               width: 250px;
+               margin: 0 auto;
+               
+          }
+     
+     
+     
+     }
+
+     .images{
+         & div{
+          margin: 0 auto;
+          text-align: center;
+          height: 450px;
+          width: 250px;
+          background-color: rgb(2, 136, 24);
+          border-radius: 15px;
+          box-shadow:  0 0 8px rgb(67, 67, 67);
+         }
+     }
+}

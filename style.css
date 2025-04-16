@@ -1,0 +1,345 @@
+
+*{
+     scroll-behavior: smooth;
+     transition: all 0.7s linear;
+     margin: 0 auto;
+     text-transform: capitalize;
+}
+body{
+     background-color: rgb(105, 105, 105);
+     overflow-x: hidden;
+     margin: 0 auto;
+}
+
+::-webkit-scrollbar{
+     width: 5px;
+}
+::-webkit-scrollbar-thumb{
+     background-color: rgb(201, 0, 111);
+}
+::-webkit-scrollbar-track{
+     background-color: violet;
+}
+.cont{
+     text-align: center;
+     margin: 0 auto;
+
+     & h1{
+          color: rgb(255, 0, 144);
+          padding: 10px;
+          font-size: 2.5rem;
+          text-shadow: 0 0 10px rgb(163, 0, 161);
+          margin: 0 auto;
+          margin-bottom: 20px;
+     }
+     & i{
+          font-size: 1.5rem;
+          background-color: rgb(0, 108, 162);
+          color: aliceblue;
+          border-radius: 50%;
+          border: 1px solid gray;
+          box-shadow:  0 0 8px rgb(67, 67, 67);
+          padding: 10px 5px;
+          font-weight: 800;
+          transition: background 0.4s linear;
+          margin: 0 auto;
+
+
+     }
+
+     & i:hover{
+          background-color: rgb(1, 110, 187);
+          cursor: pointer;
+          border: 1px solid rgb(97, 97, 97);
+     }
+
+}
+
+#output{
+     margin-top: 30px;
+     font-size: 1.5rem;
+     color: white;
+     text-shadow: 0 0 10px black;
+     max-width: 600px;
+}
+
+.button{
+     text-align: center;
+     padding: 50px 10px;
+     margin: 0 auto;
+     
+}
+.button button:nth-child(1){
+     background-color: violet;
+}
+.button button:nth-child(2){
+     background-color: red;
+}
+.button button:nth-child(3){
+     background-color: salmon;
+}
+.button button:nth-child(4){
+     background-color:orange;
+}
+
+.Mybutton{
+     flex-wrap: nowrap;
+     background-color: violet;
+     border: none;
+     width: 80px;
+     height: 35px;
+     padding: 0 10px;
+     align-items: center;
+     text-align: center;
+     border-radius: 15px;
+     font-size: 1.4rem;
+     font-weight: 600;
+     color: white;
+     cursor: pointer;
+     transition: all 0.5s linear;
+     box-shadow:  0 0 8px rgb(67, 67, 67);
+     margin: 0 auto;
+
+
+}
+
+.Mybutton:hover{
+     background-color: rgb(203, 37, 203);
+}
+
+
+/* line section */
+
+.line{
+     width: 40px;
+     height: 3px;
+     margin-left: 1rem;
+     margin-top: 1rem;
+     background-color: red;
+     animation-name: sujon;
+     animation-timing-function: linear;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+
+}
+
+@keyframes sujon{
+     15%{
+          background-color: red;
+          margin-left:1rem ;
+     }
+     30%{
+          background-color: violet;
+     }
+     45%{
+          background-color: aqua;
+     }
+     60%{
+          background-color: black;
+     }
+     75%{
+          background-color: blue;
+     }
+     90%{
+          background-color: rgb(255, 255, 255);
+          margin-left: 90%;
+
+     }
+}
+
+/* video section */
+
+.video-section{
+     margin: 0 auto;
+     max-width: 1440px;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 1rem;
+     padding-top: 50px;
+     cursor: pointer;
+     padding-right: 20px;
+     padding-left: 20px;
+     
+     .video{
+          width: 400px;
+          margin: 10px auto;
+          border-radius: 20px;
+          padding-right: 10px;
+          padding-left: 10px;
+
+                    
+     }
+
+
+
+}
+
+
+.first{
+     text-align: center;
+     margin: 0 auto;
+}
+#firstBtn{
+     width: 100px;
+     height: 35px;
+     background-color: rgb(220, 0, 220);
+     border: none;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgb(110, 0, 68);
+     cursor: pointer;
+     transition: all 0.4s linear;
+     color: aliceblue;
+
+}
+
+#firstBtn:hover{
+     background-color: rgb(163, 2, 163);
+}
+/* images section */
+.images{
+     margin: 0 auto;
+     max-width: 1440px;
+     display: flex;
+     text-align: justify;
+     flex-wrap: wrap;
+     gap:25px;
+     align-items: center;
+     margin-top: 5rem;
+     padding-right: 10px;
+     padding-left: 10px;
+
+ 
+     & div{
+          margin: 0 auto;
+          text-align: center;
+          height: 450px;
+          width: 250px;
+          background-color: rgb(2, 136, 24);
+          border-radius: 15px;
+          box-shadow:  0 0 8px rgb(67, 67, 67);
+          cursor: pointer;
+          transition:all 0.5s linear;
+
+        
+          & img{
+               width: 240px;
+               height: 250px;
+               border-radius: 15px;
+               margin: 0 auto;
+               padding-top: 5px;
+               text-align: center;
+
+               
+          }
+
+          & h2{
+               color: white;
+               text-shadow: 0 0 10px black;
+          }
+          & p{
+               max-width: 250px;
+               font-weight: 400;
+               font-size: 18px;
+              padding: 20px 10px;
+               color: rgb(255, 255, 255);
+                        
+          }
+          & button{
+               width: 100px ;
+               height: 35px;
+               background-color: rgb(198, 9, 198);
+               border: none;
+               border-radius: 10px;
+               font-size: 20px;
+               color: white;
+               font-weight: 800;
+               cursor: pointer;
+               transition: 0.5s linear;
+          }
+
+          & button:hover{
+               background-color: rgb(157, 2, 157);
+               box-shadow:  0 0 8px rgb(67, 67, 67);
+          }
+     }
+}
+
+
+.active{
+     background-color: red;
+}
+.images{
+     & div:hover{
+          transform: translateY(-10px);
+     }
+}
+
+.images div:nth-child(1) button{
+     background-color: red;
+}
+
+.images div:nth-child(2) button{
+     background-color: rgb(187, 0, 103);
+}
+
+.images div:nth-child(3) button{
+     background-color: rgb(144, 0, 149);
+}
+
+.images div:nth-child(3) button{
+     background-color: rgb(60, 0, 149);
+}
+
+.images div:nth-child(4) button{
+     background-color: rgb(0, 97, 172);
+}
+
+.images div:nth-child(5) button{
+     background-color: rgb(0, 103, 112);
+}
+
+.images div:nth-child(6) button{
+     background-color: rgb(136, 95, 0);
+    
+}
+
+.images div:nth-child(7) button{
+     background-color: rgb(117, 72, 0);
+}
+
+/* count section */
+.div{
+     display: flex;
+     flex-wrap: wrap;
+     margin: 0 auto;
+     text-align: justify;
+     align-items: center;
+     justify-content: center;
+}
+
+.div1{
+     width: auto;
+     height: 150px;
+     background-color: rgb(126, 0, 126);
+     color: white;
+     text-align: center;
+     align-items: center;
+     margin: 0 auto;
+     padding: 10px 70px;
+     border-radius: 8px;
+     box-shadow:  0 0 8px rgb(67, 67, 67);
+     margin-top: 50px;
+
+     
+
+     & h3{
+          padding-top: 50px;
+          font-size: 1.8rem;
+     }
+     & h4{
+          font-size: 1.5rem;
+     }
+}
+
