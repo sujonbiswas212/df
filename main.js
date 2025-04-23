@@ -153,7 +153,7 @@ function audio(text){
                break;
 
           case "A":
-               var a = new Audio('./s2.mp3')
+               var a = new Audio('./s1.mp3')
                a.play();
                document.getElementById('output').innerHTML = `click ${text}`;
                 
@@ -163,7 +163,7 @@ function audio(text){
              },2000)
                break;
           case "b":
-               var b = new Audio('./s3.mp3')
+               var b = new Audio('./s2.mp3')
                b.play();
                document.getElementById('output').innerHTML = `click ${text}`;
                 
@@ -173,7 +173,7 @@ function audio(text){
              },2000)
                break;
           case "B":
-               var b = new Audio('./s4.mp3')
+               var b = new Audio('./s2.mp3')
                b.play();
                document.getElementById('output').innerHTML = `click ${text}`;
                 
@@ -183,7 +183,7 @@ function audio(text){
              },2000)
                break;
           case "c":
-               var c = new Audio('a.mp3')
+               var c = new Audio('./s3.mp3')
                c.play();
                document.getElementById('output').innerHTML = `click ${text}`;
                 
@@ -193,7 +193,7 @@ function audio(text){
              },2000)
                break;
           case "C":
-               var c = new Audio('a.mp3')
+               var c = new Audio('./s3.mp3')
                c.play();
                document.getElementById('output').innerHTML = `click ${text}`;
                 
@@ -203,7 +203,7 @@ function audio(text){
              },2000)
                break;
           case "d":
-               var d = new Audio('a.mp3')
+               var d = new Audio('./s4.mp3')
                d.play();
                document.getElementById('output').innerHTML = `click ${text}`;
                 
@@ -221,7 +221,7 @@ function audio(text){
     
               },2000)
                 
-               var d = new Audio('a.mp3')
+               var d = new Audio('./s4.mp3')
                d.play();
                break;
           default:
