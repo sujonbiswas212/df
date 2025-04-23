@@ -112,11 +112,11 @@ recognition.onresult = function(event){
 function read(text){
      var speech = new SpeechSynthesisUtterance();
      speech.text = text;
-     question.map(plan=>
+     speech.question.map(plan=>
           ` if(text == '${plan.text}'){
              speech.text = '${plan.ans}';
      }
-     else{
+     else{v  
           speech.text = 'please agin';
      }`
      )
