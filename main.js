@@ -142,7 +142,7 @@ for(var i = 0;i<=3;i++){
 function audio(text){
      switch(text){
           case "a":
-               var a = new Audio('a.mp3')
+               var a = new Audio('1.mp3')
                a.play();
                document.getElementById('output').innerHTML = `click ${text}`;
                 
@@ -153,7 +153,7 @@ function audio(text){
                break;
 
           case "A":
-               var a = new Audio('a.mp3')
+               var a = new Audio('2.mp3')
                a.play();
                document.getElementById('output').innerHTML = `click ${text}`;
                 
@@ -163,7 +163,7 @@ function audio(text){
              },2000)
                break;
           case "b":
-               var b = new Audio('a.mp3')
+               var b = new Audio('3.mp3')
                b.play();
                document.getElementById('output').innerHTML = `click ${text}`;
                 
@@ -173,7 +173,7 @@ function audio(text){
              },2000)
                break;
           case "B":
-               var b = new Audio('a.mp3')
+               var b = new Audio('4.mp3')
                b.play();
                document.getElementById('output').innerHTML = `click ${text}`;
                 
